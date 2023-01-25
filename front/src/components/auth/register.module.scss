@@ -1,0 +1,126 @@
+.login {
+  max-height: 450px;
+  min-height: 375px;
+  min-width: 320px;
+  max-width: 400px;
+  background: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 35px;
+
+  > h1 {
+    font-family: "Inter";
+    color: #fe5f1e;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 62px;
+  }
+
+  > div {
+    > input {
+      color: #fe5f1e;
+      outline: 0;
+      border-width: 0 0 2px;
+      margin-bottom: 25px;
+      min-width: 250px;
+      min-height: 30px;
+      background: rgba(19, 19, 22, 0.05);
+      padding-left: 15px;
+      padding-right: 15px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      border-color: #fe5f1e;
+    }
+
+    > input:last-of-type {
+      margin-bottom: 10px;
+    }
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    > button {
+      color: #fe5f1e;
+      width: 275px;
+      height: 45px;
+      border-radius: 15px;
+      border-style: solid;
+      border-color: #fe5f1e;
+      background: #ffffff;
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 15px;
+
+      &:hover {
+        transition: background-color .5s ease-in-out;
+        background-color: #ffdf8c;
+      }
+    }
+
+    > div {
+      display: flex;
+      margin-top: 15px;
+
+      > a {
+        text-decoration: none;
+        font-family: "Agency FB";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #fe5f1e;
+      }
+
+      > p {
+        color: #fe5f1e;
+        font-family: "Alef";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        margin: 0 0 7px 0;
+      }
+    }
+  }
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  //width: 1280px;
+  height: 42px;
+
+
+  > a {
+    color: black;
+    text-decoration: none;
+    font-family: "Alef";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+    &:hover {
+      font-size: 17px;
+      color: #53bded;
+      //transition: color 2s ease-in-out;
+      transition: font-size .4s ease-in-out;
+    }
+  }
+}
